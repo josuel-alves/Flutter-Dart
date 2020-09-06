@@ -1,19 +1,3 @@
-class ConfigApp {
-  //Constant Static
-  static String appId = 'hash';
-  
-  static void configMain(){
-    print('Pass');
-  }
-}
-
-// Line Break - Console
-class AddBreak{
-  void line(){
-    print('');print('');
-    print('====================================');
-  }
-}
 
 // interface
 abstract class horarioEspecial{
@@ -40,6 +24,23 @@ class Professor extends Funcionario{
 class Diretor extends Funcionario implements horarioEspecial{
   void horaExtra(){
     print('12h às 13h');
+  }
+}
+
+class ConfigApp {
+  //Constant Static
+  static String appId = 'hash';
+  
+  static void configMain(){
+    print('Pass');
+  }
+}
+
+// Line Break - Console
+class AddBreak{
+  void line(){
+    print('');print('');
+    print('====================================');
   }
 }
 
